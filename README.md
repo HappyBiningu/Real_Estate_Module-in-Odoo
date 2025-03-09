@@ -116,4 +116,4 @@ The module follows Odoo's development guidelines and best practices:
 For any questions or support needs, please contact:
 
 - Email: happybiningu@icloud.com
-- Website: https://www.tinobiningu.netlify.app
+- Website: https://tinobiningu.netlify.app
