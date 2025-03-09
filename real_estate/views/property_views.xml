@@ -17,12 +17,7 @@
                 </header>
                 <sheet>
                     <div class="oe_button_box" name="button_box">
-                        <button type="object" class="oe_stat_button" icon="fa-envelope-o" name="action_send_email">
-                            <div class="o_field_widget o_stat_info">
-                                <span class="o_stat_text">Send</span>
-                                <span class="o_stat_text">Email</span>
-                            </div>
-                        </button>
+                        <!-- Action buttons will be added here -->
                     </div>
                     <div class="oe_title">
                         <h1>
