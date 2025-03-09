@@ -111,13 +111,9 @@ The module follows Odoo's development guidelines and best practices:
 - Module dependencies properly defined
 - Responsive design for property listings
 
-## License
-
-This module is licensed under LGPL-3.
-
 ## Support
 
 For any questions or support needs, please contact:
 
-- Email: support@yourcompany.com
-- Website: https://www.yourcompany.com
+- Email: happybiningu@icloud.com
+- Website: https://www.tinobiningu.netlify.app
