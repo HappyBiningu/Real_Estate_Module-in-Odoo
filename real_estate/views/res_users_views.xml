@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Add Real Estate Properties to User Form -->
+    <record id="view_users_form_real_estate" model="ir.ui.view">
+        <field name="name">res.users.form.real.estate</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="Real Estate Properties" attrs="{'invisible': [('groups_id', 'not in', [(4, ref('base.group_user'))])]}">
+                    <field name="property_ids" readonly="1">
+                        <tree>
+                            <field name="name"/>
+                            <field name="property_type_id"/>
+                            <field name="expected_price"/>
+                            <field name="state"/>
+                        </tree>
+                    </field>
+                </page>
+            </notebook>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_real_estate_property_user,real.estate.property.user,model_real_estate_property,group_real_estate_user,1,1,1,0
+access_real_estate_property_manager,real.estate.property.manager,model_real_estate_property,group_real_estate_manager,1,1,1,1
+access_real_estate_property_type_user,real.estate.property.type.user,model_real_estate_property_type,group_real_estate_user,1,0,0,0
+access_real_estate_property_type_manager,real.estate.property.type.manager,model_real_estate_property_type,group_real_estate_manager,1,1,1,1
+access_real_estate_property_tag_user,real.estate.property.tag.user,model_real_estate_property_tag,group_real_estate_user,1,1,1,0
+access_real_estate_property_tag_manager,real.estate.property.tag.manager,model_real_estate_property_tag,group_real_estate_manager,1,1,1,1
+access_real_estate_property_offer_user,real.estate.property.offer.user,model_real_estate_property_offer,group_real_estate_user,1,1,1,0
+access_real_estate_property_offer_manager,real.estate.property.offer.manager,model_real_estate_property_offer,group_real_estate_manager,1,1,1,1
+access_real_estate_property_image_user,real.estate.property.image.user,model_real_estate_property_image,group_real_estate_user,1,1,1,0
+access_real_estate_property_image_manager,real.estate.property.image.manager,model_real_estate_property_image,group_real_estate_manager,1,1,1,1

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Main Menu -->
+    <menuitem id="menu_real_estate_root"
+              name="Real Estate"
+              sequence="10"
+              web_icon="real_estate,static/description/icon.svg"/>
+
+    <!-- Properties Menu -->
+    <menuitem id="menu_real_estate_properties"
+              name="Properties"
+              parent="menu_real_estate_root"
+              action="action_real_estate_property"
+              sequence="10"/>
+
+    <!-- Advertisements Submenu -->
+    <menuitem id="menu_real_estate_advertisements"
+              name="Advertisements"
+              parent="menu_real_estate_root"
+              sequence="20"/>
+
+    <!-- Property Offers Submenu -->
+    <menuitem id="menu_real_estate_property_offers"
+              name="Property Offers"
+              parent="menu_real_estate_advertisements"
+              action="action_real_estate_property_offer"
+              sequence="10"/>
+
+    <!-- Configuration Menu -->
+    <menuitem id="menu_real_estate_configuration"
+              name="Configuration"
+              parent="menu_real_estate_root"
+              sequence="100"/>
+
+    <!-- Property Types Submenu -->
+    <menuitem id="menu_real_estate_property_types"
+              name="Property Types"
+              parent="menu_real_estate_configuration"
+              action="action_real_estate_property_type"
+              sequence="10"/>
+
+    <!-- Property Tags Submenu -->
+    <menuitem id="menu_real_estate_property_tags"
+              name="Property Tags"
+              parent="menu_real_estate_configuration"
+              action="action_real_estate_property_tag"
+              sequence="20"/>
+</odoo>

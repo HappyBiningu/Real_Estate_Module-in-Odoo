@@ -1,0 +1,131 @@
+// Real Estate module styles
+
+// Property Cards in Kanban view
+.o_kanban_view.o_kanban_ungrouped .oe_kanban_card.o_real_estate_property_card {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .o_kanban_image {
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .o_kanban_details {
+        padding: 10px;
+
+        .o_kanban_record_title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #4c4c4c;
+        }
+
+        .o_kanban_record_subtitle {
+            color: #666;
+        }
+
+        .property_price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #06c;
+            margin: 5px 0;
+        }
+
+        .property_details {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            
+            .detail_item {
+                display: flex;
+                align-items: center;
+                
+                i {
+                    margin-right: 5px;
+                    color: #888;
+                }
+            }
+        }
+    }
+
+    // Status colors
+    &.o_status_new {
+        border-left: 3px solid #ccc;
+    }
+    
+    &.o_status_offer_received {
+        border-left: 3px solid #17a2b8;
+    }
+    
+    &.o_status_offer_accepted {
+        border-left: 3px solid #ffc107;
+    }
+    
+    &.o_status_sold {
+        border-left: 3px solid #28a745;
+    }
+    
+    &.o_status_canceled {
+        border-left: 3px solid #dc3545;
+    }
+}
+
+// Property form improvements
+.o_form_view.o_form_editable.o_real_estate_property_form {
+    .oe_title {
+        margin-bottom: 20px;
+    }
+    
+    .o_property_image_container {
+        text-align: center;
+        margin-bottom: 15px;
+        
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    }
+    
+    .o_property_offers {
+        margin-top: 20px;
+        
+        .o_list_view {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    }
+    
+    .o_field_widget.o_field_many2many_tags {
+        .badge {
+            margin-right: 3px;
+            margin-bottom: 3px;
+        }
+    }
+}
+
+// Property search panel
+.o_search_panel.o_real_estate_search_panel {
+    .o_search_panel_section_header {
+        font-weight: bold;
+        color: #4c4c4c;
+    }
+    
+    .o_search_panel_category_value {
+        margin: 2px 0;
+        
+        &.o_search_panel_category_value_active {
+            background-color: #e6f2ff;
+            border-left: 3px solid #06c;
+        }
+    }
+}
