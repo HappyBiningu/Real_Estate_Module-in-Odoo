@@ -1,6 +1,6 @@
-[project]
-name = "repl-nix-workspace"
+[real estate module]
+name = "vs code workspace"
 version = "0.1.0"
-description = "Add your description here"
+description = "module"
 requires-python = ">=3.11"
 dependencies = []
