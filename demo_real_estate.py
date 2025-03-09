@@ -1,5 +1,3 @@
-
-
 """
 Real Estate Module Demonstration Script
 =======================================
