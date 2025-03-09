@@ -218,6 +218,15 @@ class Property(models.Model):
         for record in self:
             if record.state in ['sold', 'offer_accepted']:
                 raise UserError(_("You cannot delete a property that is sold or has an accepted offer."))
+                
+    def action_send_email(self):
+        """Send email about this property to interested parties"""
+        self.ensure_one()
+        # This would be implemented with email templates and email sending logic
+        # For now, it's just a placeholder
+        return {
+            'type': 'ir.actions.act_window_close'
+        }
 
 
 class PropertyImage(models.Model):
