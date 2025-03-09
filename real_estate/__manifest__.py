@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name': 'Real Estate Management',
     'version': '1.0',
@@ -14,8 +13,8 @@ This module allows you to manage real estate properties including:
 - Property image galleries
 - Advanced search functionality
     """,
-    'author': 'Your Company',
-    'website': 'https://www.yourcompany.com',
+    'author': 'Tinotenda Happy Biningu',
+    'website': 'https://tinobiningu.netlify.app',
     'depends': ['base', 'mail', 'web'],
     'data': [
         'security/real_estate_security.xml',
