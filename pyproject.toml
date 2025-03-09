@@ -1,6 +1,0 @@
-[real estate module]
-name = "vs code workspace"
-version = "0.1.0"
-description = "module"
-requires-python = ">=3.11"
-dependencies = []
